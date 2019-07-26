@@ -15,7 +15,7 @@ did = ''
 sesid = ''
 #生成方法がわからない。アプリを開く度に生成されてるっぽい？
 
-header = {'x-lct': lct, 'Accept': 'application/json', 'x-lm-did': did, 'timeout': 30, 'User-Agent': 'LineMusic/3.9.2  (iPhone; U; iOS 12.1.4; ja-JP;)', 'Accept-Language': 'ja-JP;q=1', 'Accept-Encoding': 'br, gzip, deflate', 'Cookie': ''}
+header = {'x-lct': lct, 'Accept': 'application/json', 'x-lm-did': did, 'User-Agent': 'LineMusic/3.9.2  (iPhone; U; iOS 12.1.4; ja-JP;)', 'Accept-Language': 'ja-JP;q=1', 'Accept-Encoding': 'br, gzip, deflate', 'Cookie': ''}
 
 query = input("please input keywords: ")
 enc = urllib.parse.quote(query)
